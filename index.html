@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Dia Tarde Noite</title>
+</head>
+<body id="bodi" onload="carregar()">
+<div class="all" id="all">
+ <header>
+        <h1>Hora do dia</h1>
+    </header>
+    <section>
+        <div id="horas">Agora são x horas</div>
+        <div class="imgs">
+            <img id="imagem" src="https://classic.exame.com/wp-content/uploads/2017/06/thinkstockphotos-466262074.jpg" alt="Paisagem manhã">
+        </div>
+    </section>
+    <footer> 
+        <p>&copy; Mateus Silva</p>
+    </footer>
+
+
+</div>
+   
+    <script src="script.js"></script>
+    
+
+    <style>
+     .imgs {
+        display: flex;
+        justify-content: center;
+     }
+     
+     .all { 
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        flex-wrap: wrap;
+        background-color: rgba(240, 248, 255, 0.506);
+        width: 550px;
+        height: 500px;
+        margin: auto;
+        border-radius: 100px;
+       }
+       
+       
+       body {
+            background-size: cover;
+        }
+
+header {
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+}
+
+section {
+    text-align: center;
+}
+        #imagem {
+           width: 200px;
+            border-radius: 100px;
+            border: 5px solid rgba(255, 255, 255, 0.183);
+        }
+    </style>
+</body>
+</html>
